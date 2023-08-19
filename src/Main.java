@@ -1,5 +1,8 @@
+import Listas.ClsArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ClsArrayList ar = new ClsArrayList();
+        ar.listaTareas();
     }
 }
